@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <link href="./final.css" rel="stylesheet">
+    <script src="./final.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="wrapper">
+            <div class="information">
+                <h1>코드캠프 회원가입
+                </h1>
+                <div class="box">
+                    <div class="box1">
+                        <input id="email" class="box1" type="text" placeholder=" 이메일을 입력해주세요.">
+                        <div>dddd</div>
+                    </div>
+                    <div class="box1">
+                        <input id="name" class="box1" type="text" placeholder=" 이름을 입력해주세요.">
+                        <div>dddd</div>
+                    </div>
+                    <div class="box1">
+                        <input id="pw1" class="box1" type="password" placeholder=" 비밀번호를 입력해주세요.">
+                        <div>dddd</div>
+                    </div>
+                    <div class="box1">
+                        <input id="pw2" class="box1" type="password" placeholder=" 비밀번호를 다시 입력해주세요.">
+                        <div>dddd</div>
+                    </div>
+                </div>
+                <div class="phone">
+                    <input class="phone_number" id="phone1" type="text" oninput="changeFocus1()" maxlength="3"> - 
+                    <input class="phone_number" id="phone2" type="text" oninput="changeFocus2()" maxlength="4"> - 
+                    <input class="phone_number" id="phone3" type="text" maxlength="4">
+                </div>
+                <div class="auth__timer">
+                    <div class="auth__btn">
+                        <div class="blue" id="auth">000000</div>
+                        <button class="auth__timer__btn" onclick="pressedBtn()">인증번호 전송</button>
+                    </div>
+                    <div class="auth__btn">
+                        <div class="blue" id="timer"> 03:00 </div>
+                        <button class="auth__timer__btn" id="finish" disabled = "false" onclick="msg()">인증확인</button>
+                    </div>
+                </div>
+                <div class="dis">
+                    <select id="select">
+                        <option disabled="true" selected="true">지역을 선택하세요.</option>
+                        <option>서울</option>
+                        <option>경기</option>
+                        <option>인천</option>
+                    </select>
+                </div>
+                <div class="gender">
+                    <input id="gender" type="radio" name="gender"> 여성
+                    <input id="gender" type="radio" name="gender"> 남성
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <button class="final__btn" disabled = "false" onclick="signmsg()">가입하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

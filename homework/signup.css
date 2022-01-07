@@ -1,0 +1,72 @@
+.background {
+    width: 1920px;
+    height: 1080px;
+    background-color: #FFFFFF;
+}
+
+.wrapper {
+    margin: 60px 625px 60px 625px;
+    width: 670px;
+    height: 960px;
+    background-color: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0..25);
+    border-radius: 20px;
+}
+
+.information {
+    width: 470px;
+    height: 818px;
+    margin: 72px 100px 72px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.box1 {
+    width: 466px;
+    height: 80px;
+    font-size: 16px;
+    color: #797979;
+    border-bottom: 1px solid #0068ff;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    width: 466px;
+    height: 80px;
+    font-size: 16px;
+    color: #797979;
+    border-bottom: 1px solid #CFCFCF;
+    margin-bottom: 10px;
+}
+h1 {
+    color: #0068ff;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.marketing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    width: 470px;
+    height: 75px;
+    background-color: #FFFFFF;
+    border: 1px solid #0068ff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+hr {
+    background-color: #e6e6e6;
+}

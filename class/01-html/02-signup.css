@@ -1,0 +1,15 @@
+input {
+    background-color: red;
+    color: white;
+}
+
+.name {
+    background-color: blue;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgb(255, 0, 0);
+    /* 테두리 굵기 / 굵게 solid, dotted / 색상 */
+}
